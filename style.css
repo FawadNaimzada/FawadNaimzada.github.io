@@ -1,0 +1,222 @@
+body{
+    background-color: rgb(200, 200, 200);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+/***********HEADER**********/
+.header-link{
+    display: flex;
+    padding: 2vw;
+}
+#header{
+    display: flex;
+    background-color: rgb(12, 4, 49);
+    color: white;
+    padding-left: 14vw;
+}
+#header-name{
+    color:#ffffff;
+    text-decoration: none;
+}
+#header-name:hover{
+    text-decoration: solid underline overline;
+}
+
+/*********SEARCH***********/
+#search{
+    display: flex;
+}
+#search img{
+    width: 2.1vw;
+    height: 2.1vw;
+    margin-top: 2.35vw;
+}
+#search p{
+    margin-top: 3vw;
+    text-decoration: none;
+
+}
+#search a.p{
+    margin-top: 3vw;
+    text-decoration: none;
+}
+#search a:hover{
+    margin-top: 3vw;
+    color: white;
+    text-decoration: underline;
+
+}
+.color-{
+    color: rgb(196, 196, 11);
+    font-weight: bolder;
+    margin-right: 0.5vw;
+}
+
+#main-content{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+}
+.main-box{
+    width: 26vw;
+}
+#main-name{
+    margin-top: 7vw;
+}
+#main-name > h1{
+    margin-left: 7vw;   
+}
+#main-name > h6{
+    margin-left: 19vw;   
+}
+#main-name > div >p{
+    margin-left: 20vw;
+    width: 5vw;
+    float: left;
+    background-color: black;
+}
+#main-name > h1{
+    margin-left: 7vw;   
+}
+
+.main-box > img{
+    margin-left: 4vw;
+    width: 30vw;
+    margin-top: 2vw;
+
+}
+.main-box-footer{
+    margin-left: 10vw;
+}
+#main-text{
+    margin-left: 8vw;
+}
+#main-moreAbout{
+    margin-left: 11vw;
+    margin-top: 5vw;
+    margin-right: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(26, 26, 105);
+    font-size: 1.3rem;
+}
+#main-moreAbout > a{
+    color: white;
+    text-decoration: none;
+}
+
+#main-moreAbout > a hover{
+    text-decoration: solid white underline;
+}
+.main-footer-flex{
+    display: flex;
+}
+.main-box-footer{
+    margin-top: 7vw;    
+}
+.main-footer-flex > h3{
+    margin-left: 9vw;
+}
+.main-prozent-number{
+    color: rgba(255, 238, 0, 0.842);
+}
+.main-prozent{
+    background-color: gray;
+    width: 15vw;
+    height: 0.3vw;
+    margin-top: 2vw;
+    margin-left: 6vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************FOOTER****************/
+.social-icon {
+    color: #fff;
+    padding: 1vw;
+  }
+  ul.social-icons {
+    margin-top: 2vw;
+  }
+  .social-icons li {
+    vertical-align: top;
+    display: inline;
+  }
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background-image: url(./img/facebook.png);
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    padding: 0.8vw;
+    padding-right: 1.8vw;
+    background-size: cover;
+  }
+  .fa-twitter {
+    background-image: url(./img/twitter.png);
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    padding: 0.8vw;
+    padding-right: 2vw;
+    background-size: cover;
+  }
+  .fa-instagram {
+    background-image: url(./img/instagram.png);
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    padding: 0.8vw;
+    padding-right: 2vw;
+    background-size: cover;
+  }
+  .fa-youtube {
+    background-image: url(./img/youtube.png);
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    padding: 0.8vw;
+    padding-right: 2vw;
+    background-size: cover;
+  }
+  .fa-linkedin {
+    background-image: url(./img/linkedin.png);
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    padding: 0.8vw;
+    padding-right: 2vw;
+    background-size: cover;
+  }
