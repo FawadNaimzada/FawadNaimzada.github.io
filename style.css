@@ -18,6 +18,10 @@ body{
 #header-name{
     color:#ffffff;
     text-decoration: none;
+    
+}
+.header-link a{
+    text-decoration: none;
 }
 #header-name:hover{
     text-decoration: solid underline overline;
@@ -61,6 +65,11 @@ body{
 .main-box{
     width: 26vw;
 }
+#myBild{
+    width: 28vw;
+    margin-left: 3vw;
+    margin-top: 1vw;
+}
 #main-name{
     margin-top: 7vw;
 }
@@ -87,7 +96,7 @@ body{
 
 }
 .main-box-footer{
-    margin-left: 10vw;
+    margin-left: 7vw;
 }
 #main-text{
     margin-left: 8vw;
@@ -129,7 +138,8 @@ body{
     background-color: gray;
     width: 15vw;
     height: 0.3vw;
-    margin-top: 2vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
     margin-left: 6vw;
 }
 

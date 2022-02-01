@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Get-Requests">
+    <title>Formular</title>
+    <link rel="stylesheet" href="style49.css">
+</head>
+
+<body>
+
+    <h1>Formular</h1>
+    <form method="get" action="1_html_formular_received.html">
+        <span>Name *</span>
+        <input name="name" type="text" value="Max Mustermann">
+        <br>
+
+        <span>E-Mail-Adresse *</span>
+        <input name="name" type="email" placeholder="max@mustermann.at">
+        <br>
+
+        <span>Geschlecht *</span>
+        <input name="gender" type="radio"><label>männlich</label>
+        <input name="gender" type="radio"><label>weiblich</label>
+        <br><br>
+
+        <span>Land *</span>
+        <select name="country" id="country">
+            <option value="oe">Österrreich</option>
+            <option value="de">Deutschland</option>
+            <option value="sz">Schweiz</option>
+            <option value="it">Italien</option>
+        </select>
+
+        <p id="important">* müssen ausgefüllt werden</p>
+
+        <input type="submit" value="Senden" >
+
+    </form>
+</body>
+
+</html>
